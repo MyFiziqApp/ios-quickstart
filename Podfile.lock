@@ -1,0 +1,94 @@
+PODS:
+  - AWSCognito (2.10.3):
+    - AWSCore (= 2.10.3)
+  - AWSCognitoIdentityProvider (2.10.3):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.10.3)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.10.3)
+  - AWSKinesis (2.10.3):
+    - AWSCore (= 2.10.3)
+  - AWSLambda (2.10.3):
+    - AWSCore (= 2.10.3)
+  - AWSS3 (2.10.3):
+    - AWSCore (= 2.10.3)
+  - Base64 (1.1.2)
+  - GBDeviceInfo (6.0.0):
+    - GBDeviceInfo/Core (= 6.0.0)
+  - GBDeviceInfo/Core (6.0.0)
+  - InterfaCSS (1.5.5)
+  - JWT (3.0.0-beta.4):
+    - Base64 (~> 1.1.2)
+  - MyFiziqSDK (19.1.3):
+    - AWSCognito (~> 2.9)
+    - AWSCognitoIdentityProvider (~> 2.9)
+    - AWSKinesis (~> 2.9)
+    - AWSLambda (~> 2.9)
+    - AWSS3 (~> 2.9)
+    - JWT (= 3.0.0-beta.4)
+    - MyFiziqSDKBilling (~> 19.1.3)
+    - MyFiziqSDKCommon (~> 19.1.3)
+  - MyFiziqSDKBilling (19.1.3):
+    - MyFiziqSDKCommon (~> 19.1.3)
+  - MyFiziqSDKCommon (19.1.3):
+    - GBDeviceInfo
+    - InterfaCSS (~> 1.5)
+    - PureLayout
+  - MyFiziqSDKInputView (19.1.3):
+    - MyFiziqSDK (~> 19.1.3)
+  - MyFiziqSDKLoginView (19.1.3):
+    - MyFiziqSDK (~> 19.1.3)
+    - SHEmailValidator (~> 1.0)
+  - PureLayout (3.1.4)
+  - SHEmailValidator (1.0.5)
+
+DEPENDENCIES:
+  - MyFiziqSDK
+  - MyFiziqSDKInputView
+  - MyFiziqSDKLoginView
+
+SPEC REPOS:
+  https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-podrepo:
+    - MyFiziqSDK
+    - MyFiziqSDKBilling
+    - MyFiziqSDKCommon
+    - MyFiziqSDKInputView
+    - MyFiziqSDKLoginView
+  https://github.com/cocoapods/specs.git:
+    - AWSCognito
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSKinesis
+    - AWSLambda
+    - AWSS3
+    - Base64
+    - GBDeviceInfo
+    - InterfaCSS
+    - JWT
+    - PureLayout
+    - SHEmailValidator
+
+SPEC CHECKSUMS:
+  AWSCognito: 0b1ad0f58f5eb255cf3cc2f799a0fb1ced0e74ec
+  AWSCognitoIdentityProvider: 70cfc80901b1b66bd68ef06893cb0ec3c6213510
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: f9b8a30d9e8ec07d1a6dd8f0ec5fe84b6a215041
+  AWSKinesis: a90b4e0efd17bc4e060945203e3ccc1736c2b092
+  AWSLambda: 90dc834089cf07048d2a4d2074740b69754628bb
+  AWSS3: c6f0f7a49a74384b9d0fe055c822d1fa5c633905
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  GBDeviceInfo: b7576f403b3050c1d3f4b490ab1d7dbb951bb1d9
+  InterfaCSS: 8c1ad93e391eeccfbd39b627df2e2842606f97e8
+  JWT: 333a9a50c567d367eff8d82feb5ef532faff823b
+  MyFiziqSDK: 56e338973937869a8976adf7973f827d54125ffc
+  MyFiziqSDKBilling: 1b17e3fc577dac2f47cc28b138d9d88b6ba286bd
+  MyFiziqSDKCommon: 484592b6e705b829fa969aef087975d3f4a15bd3
+  MyFiziqSDKInputView: ad5c33745a1e028b99fed2c2f7f9de46269def88
+  MyFiziqSDKLoginView: fc20f6c39d9d6d7d00d726f4f0bccdd1026e3aa6
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+  SHEmailValidator: 51862a04e37f721309725f044f226f760262a76d
+
+PODFILE CHECKSUM: 5c59076093cab8798584ef0c163d0af54b8a1e04
+
+COCOAPODS: 1.6.1
